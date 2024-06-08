@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yukesh Raghavan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Yukesh Raghavan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Yukesh Raghavan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </jdiv>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Yukesh Raghavan profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Yukesh Raghavan</h1>
+        <p class="section__text__p2">FullStack(MERN Java) and Application Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Yukesh_Raghavan_Resume_SDE.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="window.open('https://www.linkedin.com/in/yukeshraghavan/', '_blank')">
+
+
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="window.open('https://github.com/YukeshRaghav', '_blank')">
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile1.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Early Startup Experience <br />FullStack Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors and Masters in Computer Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hey there! I'm Yukesh Raghavan, a passionate computer engineer with a knack for crafting innovative solutions. My journey started at SRM Institute of Science and Technology, where I honed my skills in everything from data structures and algorithms to iOS development.
+              Then, at Stony Brook University, I delved deeper into the world of computer engineering, mastering concepts like ML and AI, distributed systems, and mobile cloud computing. 
+              I thrive on challenges and have hands-on experience in creating impactful projects, from spearheading the development of an E-commerce platform to developing Android Application. 
+              Let's collaborate and bring ideas to life!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+      <section id="education">
+        <div class="title">Education</div>
+        <div class="education-entry">
+          <img src="./assets/sbulogo.png" alt="Stony Brook University Logo" class="education-logo" />
+          <h2>Stony Brook University</h2>
+          <p class="education-degree">Master of Science in Computer Engineering</p>
+          <p class="education-date">August 2022 – May 2024</p>
+          <p class="education-gpa">GPA: 3.73/4.0</p>
+          <p class="education-coursework">Coursework:</p>
+          <ul>Data Structures and Algorithms, Distributed Systems, ML And AI, Data Mining, Mobile Cloud Computing.</ul>
+          
+      </div>
+      <div class="education-entry">
+        <img src="./assets/srmlogo.png" alt="SRM Institute of Science and Technology Logo" class="education-logo" />
+        <div class="education-text">
+            <h2>SRM Institute of Science and Technology</h2>
+            <p class="education-degree">Bachelor of Technology in Computer Engineering</p>
+            <p class="education-date">June 2018 – May 2022</p>
+            <p class="education-gpa">GPA: 3.70/4.0</p>
+            <p class="education-coursework">Coursework:</p>
+            <!-- List of coursework could be added here if needed -->
+            <ul>Theory of Database Systems, Analysis of Algorithms, Network Algorithm and Analysis, IOS Development.</ul>
+        </div>
+    </div>
+    
+          
+      </div>
+      
+             
+    </section>
+    
+
+    <section id="experience" class="experience-section">
+      <div class="title">Experience</div>
+      <div class="experience-content">
+          <div class="experience-skills">
+              <!-- Skill details if any -->
+          </div>
+          <ul class="experience-history">
+              <!-- Stony Brook University -->
+              <li class="history-item">
+                  <img src="./assets/sbulogo.png" alt="Organisation Logo" class="organisation-logo" />
+                  <div class="history-item-details">
+                      <h3>Graduate Teaching Assistant, Stony Brook University</h3>
+                      <p>August 2023 - December 2023</p>
+                      <ul>
+                          <li>Mentored 50+ undergraduate students on concepts of data structures and algorithms and object-oriented programming with C++ and Java.</li>
+                          <li>Streamlined student project development by conducting rigorous code reviews, resulting in a notable improvement in
+                            code quality and a 10-hour reduction in debugging time post-submission.</li>
+                      </ul>
+                  </div>
+              </li>
+              <!-- Learnovate Ecommerce -->
+              <li class="history-item">
+                  <img src="./assets/le.jpeg" alt="Organisation Logo" class="organisation-logo" />
+                  <div class="history-item-details">
+                      <h3>Software Developer Intern, Learnovate Ecommerce</h3>
+                      <p>August 2021 - January 2022</p>
+                      <ul>
+                          <li>Developed a high-traffic e-commerce platform for a startup, leveraging Java, Spring Boot for backend and optimized React for frontend, attracting 10,000+ users in six months.</li>
+                          <li>Architected and optimized API endpoints using Spring Boot, enhancing system throughput from 1,000 to 1,400
+                            requests per second, boosting performance and user interaction quality.</li>
+                            <li>Engineered responsive UI forms with React, Material-UI, and Tailwind CSS, achieving a 23% boost in user engagement.
+                              </li>
+                              <li>Elevated website performance by cutting initial load time by 80 milliseconds through image optimization, reduced HTTP
+                                requests, and asynchronous loading in Next.js.</li>
+                      </ul>
+                  </div>
+              </li>
+              <!-- SmartKnower Pvt Ltd -->
+              <li class="history-item">
+                  <img src="./assets/smart.jpeg" alt="Organisation Logo" class="organisation-logo" />
+                  <div class="history-item-details">
+                      <h3>IT/Tech Support, SmartKnower Pvt Ltd</h3>
+                      <p>March 2022 - May 2022</p>
+                      <ul>
+                          <li>Delivered expert technical support for IoT devices, boosting reliability and customer satisfaction through effective troubleshooting and communication.</li>
+                          <li>Managed weekly technical support for over 50 clients, resolving issues across multiple channels including in-person, phone, and chat, enhancing customer trust and service continuity.</li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </section>
+  
+      
+      </section>
+
+    
+      
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/lambda.jpeg" alt="Lambda Project Image" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Lambda: A Skill-Sharing App for SBU Students</h2>
+            <p> An Android app developed with Java and Firebase, integrating an AI chatbot to aid SBU students.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/YukeshRaghav/Lambda-Android-App'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/164KiUPisFXfFXXNfgSLSRNbV4S9hH1hw/view?resourcekey'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/comfy.png" alt="Comfy Store Project Image" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Comfy Store Web Application</h2>
+            <p> A responsive E-commerce web application for smooth shopping experience.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/YukeshRaghav/Comfy-Store'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://react-vite-comfy-store-v2.netlify.app/products'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/nyc taxi.jpeg" alt="NYC Taxi Demand Prediction Project Image" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">NYC Taxi Demand Prediction and Route Optimization</h2>
+            <p>See the optimize taxi routes and yellow taxi demands in NYC.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/YukeshRaghav/NYC-Taxi-Prediction-and-Route-Optimization'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/ML_Final_Project.pdf')">Paper</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/foodmenu.png" alt="Food Menu App" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Food Menu Application</h2>
+            <p> A dynamic and responsive web application for showcasing and managing an interactive food menu with seamless navigation across devices.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/YukeshRaghav/FOODMENU?tab=readme-ov-file'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://main--yukeshfoodmenu.netlify.app/'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/tours.png" alt="Tourist Website" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Tourist Website</h2>
+            <p> A user-friendly website for booking tours and viewing package prices across all devices.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/YukeshRaghav/React-Backroad-App-Tourist-Website?tab=readme-ov-file'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://tubular-llama-c84e54.netlify.app/'">Live Demo</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/unsplash.png" alt="Unsplash Image" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Unsplash Images</h2>
+            <p> A web application for searching and discovering images from Unsplash.</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/YukeshRaghav/Unplash-Images-API-Project-?tab=readme-ov-file'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://yukeshunplashproject-tapioca-a43ff7.netlify.app/'">Live Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:raghavanyukesh@gmail.com">raghavanyukesh@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+          onclick="window.open('https://www.linkedin.com/in/yukeshraghavan/', '_blank')"
+        />
+        <p><a href="https://www.linkedin.com/in/yukeshraghavan/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href='#education'>Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p></p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
